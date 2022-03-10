@@ -60,6 +60,15 @@
     <Compile Include="Constructors\BattleShieldEG.Designer.cs">
       <DependentUpon>BattleShieldEG.cs</DependentUpon>
     </Compile>
+    <Compile Include="Inheritance\Entities\BambooSword.cs" />
+    <Compile Include="Inheritance\InheritanceEG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inheritance\InheritanceEG.Designer.cs">
+      <DependentUpon>InheritanceEG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inheritance\BaseEntity\Weapons.cs" />
+    <Compile Include="Inheritance\Entities\YoungHeroesTwoHanded.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesAndEncapsulation\OceanicShoes.cs" />
     <Compile Include="PropertiesAndEncapsulation\PropAndEncapsulationEG.cs">
