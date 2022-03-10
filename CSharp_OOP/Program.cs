@@ -1,6 +1,7 @@
 ﻿using CSharp_OOP.Class;
 using CSharp_OOP.Constructors;
 using CSharp_OOP.PropertiesAndEncapsulation;
+using CSharp_OOP.Struct;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,7 +21,7 @@ namespace CSharp_OOP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BattleShieldEG());
+            Application.Run(new StructEG());
         }
     }
 }

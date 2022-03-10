@@ -78,6 +78,13 @@
       <DependentUpon>PropAndEncapsulationEG.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Struct\DragonHood.cs" />
+    <Compile Include="Struct\StructEG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Struct\StructEG.Designer.cs">
+      <DependentUpon>StructEG.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Class\ClassEG.resx">
       <DependentUpon>ClassEG.cs</DependentUpon>
     </EmbeddedResource>
@@ -96,6 +103,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Struct\StructEG.resx">
+      <DependentUpon>StructEG.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
