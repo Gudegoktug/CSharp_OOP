@@ -1,4 +1,5 @@
 ﻿using CSharp_OOP.Class;
+using CSharp_OOP.Constructors;
 using CSharp_OOP.PropertiesAndEncapsulation;
 using System;
 using System.Collections.Generic;
@@ -19,7 +20,7 @@ namespace CSharp_OOP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PropAndEncapsulationEG());
+            Application.Run(new BattleShieldEG());
         }
     }
 }

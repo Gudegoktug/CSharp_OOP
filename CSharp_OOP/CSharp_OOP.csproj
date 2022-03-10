@@ -53,6 +53,13 @@
       <DependentUpon>ClassEG.cs</DependentUpon>
     </Compile>
     <Compile Include="Class\PoisonSword.cs" />
+    <Compile Include="Constructors\BattleShield.cs" />
+    <Compile Include="Constructors\BattleShieldEG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Constructors\BattleShieldEG.Designer.cs">
+      <DependentUpon>BattleShieldEG.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="PropertiesAndEncapsulation\OceanicShoes.cs" />
     <Compile Include="PropertiesAndEncapsulation\PropAndEncapsulationEG.cs">
@@ -64,6 +71,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Class\ClassEG.resx">
       <DependentUpon>ClassEG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Constructors\BattleShieldEG.resx">
+      <DependentUpon>BattleShieldEG.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PropertiesAndEncapsulation\PropAndEncapsulationEG.resx">
       <DependentUpon>PropAndEncapsulationEG.cs</DependentUpon>
