@@ -1,8 +1,11 @@
-﻿using System;
+﻿using CSharp_OOP.Class;
+using CSharp_OOP.PropertiesAndEncapsulation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 
 namespace CSharp_OOP
 {
@@ -16,7 +19,7 @@ namespace CSharp_OOP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new PropAndEncapsulationEG());
         }
     }
 }
